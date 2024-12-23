@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+
+.lets-see{
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+ 
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+h1, p{
+    color: white;
+}
