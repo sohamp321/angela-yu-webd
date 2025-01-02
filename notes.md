@@ -237,4 +237,27 @@ Collect UI
 
   ![1735366814454](image/notes/1735366814454.png)
 - use `grid-template-columns : repeat(auto-fil, sizeOfColumn)` to automatically adjust the amount of columns to show based on the screen size -> leads to responsive design.
--
+- 
+
+# Design Notes
+
+## Color
+
+## Attention
+
+### Heirarchy
+
+- Font weights and sizes
+- Color
+
+### Layout
+
+- Have 40-60 characters per line
+
+### Alignment
+
+- Have minimum amount of alignment lines
+
+### White Space
+
+### Audience
