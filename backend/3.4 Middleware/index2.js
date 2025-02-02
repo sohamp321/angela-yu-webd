@@ -7,7 +7,16 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 
-app.use(morgan('dev'));
+function logger(req, res, next){
+  console.log(req.method);
+  console.log(req.url);
+
+  next();
+}
+
+// app.use(morgan('dev'));
+
+app.use(logger);
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
