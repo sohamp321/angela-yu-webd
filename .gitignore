@@ -10,6 +10,8 @@
 .env.local
 .env.development
 .env.production
+# Ignore all env files
+**/.env*
 
 # Ignore IDE-specific files
 .vscode/
